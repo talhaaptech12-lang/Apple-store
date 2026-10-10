@@ -47,7 +47,7 @@ nav>ul>li {
     position: absolute;
     top: 40px;
     left: 40%;
-    font-size: 55px;
+    font-size: 3.5rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -263,7 +263,7 @@ nav>ul>li {
     object-fit: cover;
 }
 
-.left-card-1>i {
+.left-card-1 > i {
     position: absolute;
     color: white;
     top: 5%;
@@ -754,4 +754,263 @@ footer>div>ul>li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     color: grey;
+}
+
+@media only screen and (max-width:1440px) {
+    .banner-btn-2 {
+        left: 55%;
+    }
+    .banner-2-btn-2  {
+        left: 55%;
+    }
+    .banner-3-btn-2 {
+        left: 55%;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .banner>h1{
+        left: 30%;
+    }
+    .banner > h2{
+        left: 40%;
+    }
+    .banner-btn{
+        height: 45px;
+        width: 120px;
+        left: 35%;
+    }
+    
+    .banner-btn-2 {
+        left: 48%;
+        height: 45px;
+    }
+    .banner-2-btn{
+        height: 48px;
+        width: 130px;
+    }
+/* banner 2 ki headings */
+    .banner-2 >h1{
+        left: 36%;
+    }
+    .banner-2 >h2{
+        left: 44%;
+    }
+    .banner-2 > .order-time{
+        left: 34%;
+    }
+    .banner-2 > .starting-time{
+        left: 42%;
+    }
+    .banner-2-btn  {
+        left: 36%;
+        height: 48px;
+        width: 130px;
+    }
+
+     .banner-2-btn-2  {
+        left: 50%;
+        height: 48px;
+        width: 130px;
+    }
+
+    /* banner 3 working */
+    .banner-3 > h1{
+        font-size: 40px;
+        left: 33%;
+    }
+    
+    .banner-3 > i{
+        left: 27%;
+    }
+    .banner-3-btn-2 {
+        left: 55%;
+    }
+    .banner-3 > .watch-info{
+        font-size:20px;
+        top: 77%;
+    }
+    .banner-3 > .banner-3-btn{
+        left: 36%;
+        top: 84%;
+    }
+    .banner-3 > .banner-3-btn-2{
+        left: 52%;
+        top: 84%;
+    }
+
+    /* left card working */
+    .left-card-1 > i{
+        font-size: 40px;
+        left: 15%;
+        top: 6%;
+    }
+    .left-card-1 > h1{
+        left: 26%;
+    }
+    .left-card-1>.card-info{
+        left: 24%;
+    }
+    .left-card-1> .card-btn{
+        left: 25%;
+    }
+
+    /* left card 2 */
+
+    .left-card-2 > .card-info{
+        left: 25%;
+    }
+    .left-card-2> .card-btn{
+        left: 29%;
+    }
+    .left-card-2 > .card-btn-2{
+        left: 56%;
+    }
+    /* right card 1 working */
+    .right-card-1 > .card-btn{
+        top: 23%;
+        left: 35%;
+    }
+    .right-card-1 > .card-btn-2{
+        top: 23%;
+        left: 63%;
+    }
+    /* right card 2 */
+
+    .right-card-2 > .card-btn-2{
+        left: 63%;
+    }
+
+    /* right card 3 */
+     .right-card-3 > .card-info{
+        left: 30%;
+    }
+     .right-card-3 > .card-info{
+        left: 30%;
+    }
+    .right-card-3 > .card-btn{
+        left: 30%;
+    }
+
+    /* entertainment section working */
+    .entertainment-section > p{
+        top: 92%;
+        left: 30%;
+    }
+    /* entertainment cards */
+    .entertainment-card > p{
+        left: 47%;
+    }
+
+}
+@media only screen and (max-width:768px) {
+    /* nav links working */
+    nav > ul > .search, .clipboard, .apple-logo{
+        display: block;
+        
+    }
+    nav > ul > li{
+        display: none;
+    }
+    /* banner 1 working */
+    .banner > .banner-btn-2{
+        left: 54%;
+    }
+    /* banner 2 working */
+    .banner-2 > .banner-2-btn-2{
+        left: 55%;
+    }
+    .banner-3> h1{
+        font-size: 30px;
+    }
+    .banner-3 > i{
+        font-size: 40px;
+    }
+    .banner-3 > .watch-info{
+        font-size: 15px;
+        left: 27%;
+    }
+    .banner-3 > .banner-3-btn{  
+        left: 30%;
+    }
+    .banner-3 > .banner-3-btn-2{
+        left: 54%;
+    }
+
+    /* card */
+    .left-card-1 > i{
+        top: 6.6%;
+       font-size: 30px;     
+    }
+    .left-card-1 > h1{
+       font-size: 25px;     
+    }
+    .left-card-1 > .card-info{
+       left: 20%;    
+    }
+    .left-card-1 > .card-btn{
+       left: 20%;    
+    }
+    .left-card-1 > .card-btn-2{
+       left: 55%;    
+    }
+
+    /* left card 2 working */
+
+    .left-card-2 > h1{
+        left: 30%;
+    }
+     .left-card-2 > .card-info{
+        left: 17%;
+    }
+.left-card-2 > .card-btn{
+       left: 20%;    
+    }
+    .left-card-2 > .card-btn-2{
+       left: 55%;    
+    }
+
+    /* right card 3 */
+
+
+    .right-card-3 > .card-info{
+        left: 10%;
+    }
+    .right-card-3 > .card-info-2{
+        left: 21%;
+    }
+    .right-card-3 > .card-btn{
+        left: 20%;
+    }
+    /* entertainemt section heading */
+
+    .entertainment-section> h1{
+        font-size: 40px;
+    }
+    /* entertainment section button working */
+
+    .entertainment-section > .apple-tv-btn{
+        height: 40px;
+        width: 150px;
+        font-size: 17px;
+    } 
+    
+    /* entertainment cards */
+    .entertainment-card > .category{
+        left: 70%;
+    }
+    .entertainment-card > i{
+        left: 60%;
+    }
+    .entertainment-card > button{
+        height: 40px;
+        width: 100px;
+    }
+    .entertainment-card > p{
+        top: 80%;
+        left: 50%;
+    }
+    /* footer */
+    footer> div > ul >li{
+        display: none;
+    }
 }
